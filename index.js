@@ -8,7 +8,7 @@ app.listen(port);
 
 
 app.get('/',(req,res)=>{
-    res.send("ladren perros");
+    res.send('C:/Users/h3mabil/Downloads/nodejs/prueba/views/home.html');
     
 });
 
