@@ -8,7 +8,7 @@ app.listen(port);
 
 
 app.get('/',(req,res)=>{
-    res.send('C:/Users/h3mabil/Downloads/nodejs/prueba/views/home.html');
+    res.sendFile('C:/Users/h3mabil/Downloads/nodejs/prueba/views/home.html');
     
 });
 
