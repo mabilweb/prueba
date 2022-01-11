@@ -2,9 +2,10 @@ const express =require('express');
 const router = express.Router();
 
 router.get('/',(req,res)=>{
-    console.log("gato barato");
+    
     //res.render('index')
-    //res.send('index');
+    res.send('index');
+    console.log("gato barato");
 });
 
 router.get('/about',(req,res)=>{
