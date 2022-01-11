@@ -2,7 +2,7 @@ const express =require('express');
 const router = express.Router();
 
 router.get('/',(req,res)=>{
-    console.log(path.join(__dirname));
+    console.log("gato barato");
     //res.render('index')
     //res.send('index');
 });
