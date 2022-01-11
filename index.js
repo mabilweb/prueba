@@ -8,7 +8,7 @@ app.listen(port);
 
 
 app.get('/',(req,res)=>{
-    res.sendFile('./views/home.html');
+    res.send("ladren perros");
     
 });
 
