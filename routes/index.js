@@ -1,12 +1,12 @@
 const express =require('express');
 const router = express.Router();
-//const path =require('path');
+const path =require('path');
 
 
 router.get('/',(req,res)=>{
-    //res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.ejs'));
     //res.send('index');
-    res.render('index');
+    //res.render('index');
     //console.log("gato barato");
 });
 
