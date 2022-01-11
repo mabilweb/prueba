@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilacho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="prueba1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+     <link rel="stylesheet" href="bootstrap.css"> 
+   
+</head>
+
+<body>
+    <header>
+        <div class="contenedor0">
+            <i >
+                <img src="UCC.jpg" alt="menu icon">
+            </i>
+            <canvas id="myCanvas" width="20" height="100" style="border:1px solid white;">
+                Your browser does not support the HTML canvas tag.</canvas>
+                <div class="contenedor1">
+                    <p> <strong>Soluciones medicas para una vida plena.</strong></p>
+                </div>
+    
+                <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search.." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                  </div>
+                <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.moveTo(0,0);
+                ctx.lineTo(0,100);
+                ctx.stroke();
+                </script>
+        </div>
+        <nav class="size0">
+            <ul>
+                <li>
+                        <a  href="#">
+                            <i class="contene">
+                                <img src="medicina.png" alt="menu icon" class="size1">
+                            </i>
+                            <p >MEDICAMENTOS</p>
+                        </a>
+                </li>
+    
+                <li >
+                    <a  href="#">
+                        <i class="contene">
+                            <img src="servicio.svg" alt="menu icon" class="size1">
+                        </i>
+                        <p >SERVICIOS</p>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <i class="contene">
+                            <img src="Tratamiento.png" alt="menu icon" class="size1">
+                        </i>
+                        <p >TRATAMIENTOS</p>
+                    </a>
+                </li>
+    
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section>
+        <div class="centrado">
+            <div id="slideshow-principal">
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <div id="slideshow">
+                   <a href="#"><img class="uno" src="" alt="" id="img1"></a> 
+                   <a href="#"><img class="uno" src="" alt="" id="img2"></a> 
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div id="indicadores">
+            </div>
+           <script src="slide2.js"></script>
+        </div>
+    </section>
+
+    <section class="grid">
+
+        <div class="tres"> <a href="#"><img class="dos" id="cuatro" src="medico1.jpg"><div class="overlay"><h1> hola soy pedro</h1></div></a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="cinco" src="medico2.jpg"><div class="overlay"><h1 >hola soy pedro</h1></div>  </a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="seis" src="medico3.jpg"><div class="overlay">  <h1>hola soy pedro  </h1></div></a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="siete" src="medico4.jpg"><div class="overlay"><h1> hola soy pedro </h1></div> </a> </div>
+    </section>
+
+
+    <footer class="wrap-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-8 col-12 list-footer">
+                    <nav><!-- navbar-expand-lg -->
+                        <ul>
+                            <li>
+                                <a href="/Home/AboutUs">
+                                    QUIENES SOMOS
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a href="/Home/FAQs">
+                                    PREGUNTAS FRECUENTES
+                                </a>
+                            </li>
+    
+                            <li class="no-border-left">
+                                <a href="/Home/Sugerencia">
+                                    SUGERENCIAS
+                                </a>
+                            </li>
+                        </ul>
+    
+                        
+                    </nav>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 redes-sociales"> <!-- d-none d-md-block -->
+                    <h6>SÍGUENOS EN:</h6>
+                    <nav>
+                        <ul>
+                            <li> <a href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-f" ></i></a></li>
+                           
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+
+</body>
+</html>
