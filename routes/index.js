@@ -1,9 +1,7 @@
 const express =require('express');
 const router = express.Router();
-const appp =express();
-const path =require('path');
 
-appp.set('view engine', 'ejs');
+const path =require('path');
 
 
 router.get('/',(req,res)=>{
