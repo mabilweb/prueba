@@ -4,7 +4,7 @@ const path =require('path');
 
 
 router.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname, 'index.ejs'));
+    res.sendFile(path.join(__dirname + 'index.ejs'));
     //res.send('index');
     //res.render('index');
     //console.log("gato barato");
