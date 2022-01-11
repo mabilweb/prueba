@@ -8,7 +8,7 @@ app.listen(port);
 
 
 app.get('/',(req,res)=>{
-    res.sendFile('https://raw.githubusercontent.com/mabilweb/prueba/main/views/home.html');
+    res.send('https://raw.githubusercontent.com/mabilweb/prueba/main/views/home.html');
     
 });
 
