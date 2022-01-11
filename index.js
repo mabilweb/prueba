@@ -2,7 +2,7 @@ const express = require('express');
 const app =express();
 const path =require('path');
 
-app.use(express.static('public'));
+
 
 //settings
 app.set('port',4000);
@@ -13,9 +13,8 @@ app.set('view engine', 'ejs');
 
 ///
 
-
 ///routes
-app.use(require('./routes/index'));
+app.use(require('./public/index.html'));
 
 
 ///static files
