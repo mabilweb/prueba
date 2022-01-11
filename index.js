@@ -8,7 +8,7 @@ app.listen(port);
 
 
 app.get('/',(req,res)=>{
-    res.sendFile('home.html');
+    res.sendFile('./home.html');
     
 });
 
