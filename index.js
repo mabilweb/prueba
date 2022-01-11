@@ -7,7 +7,7 @@ const path =require('path');
 //settings
 app.set('port',4000);
 //app.set('views',path.join(__dirname,'views'));
-//app.set('view engine', 'ejs');
+app.set('view engine', 'ejs');
 
 //middleawres
 
@@ -18,8 +18,8 @@ app.set('port',4000);
 
 
 app.get('/', (req, res) => {
-    console.log(path.join(__dirname , 'views/index.html'));
-    res.sendFile(path.join(__dirname , 'views/index.html'));
+    //console.log(path.join(__dirname , 'views/index.html'));
+    res.sendFile(path.join(__dirname , 'views/index.ejs'));
 });
 
 
