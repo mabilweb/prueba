@@ -18,8 +18,8 @@ app.set('port',4000);
 
 
 app.get('/', (req, res) => {
-    console.log(path.join(__dirname + '/views/index.html'));
-    //res.sendFile(path.join(__dirname + '/views/index.html'));
+    console.log(path.join(__dirname , 'views/index.html'));
+    res.sendFile(path.join(__dirname , 'views/index.html'));
 });
 
 
