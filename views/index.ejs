@@ -1,1 +1,43 @@
-<h1>a hora si locosn</h1>>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/cabecera.ejs') -%>
+   
+</head>
+
+<body>
+   
+    <%- include('partials/navegar.ejs') -%>
+    
+    <section>
+        <div class="centrado">
+            <div id="slideshow-principal">
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <div id="slideshow">
+                   <a href="#"><img class="uno" src="" alt="" id="img1"></a> 
+                   <a href="#"><img class="uno" src="" alt="" id="img2"></a> 
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div id="indicadores">
+            </div>
+           <script src="slide2.js"></script>
+        </div>
+    </section>
+
+    <section class="grid">
+
+        <div class="tres"> <a href="#"><img class="dos" id="cuatro" src="medico1.jpg"><div class="overlay"><h1> aqui va alguna información</h1></div></a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="cinco" src="medico2.jpg"><div class="overlay"><h1 >aqui va alguna información </h1></div>  </a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="seis" src="medico3.jpg"><div class="overlay">  <h1>aqui va alguna información  </h1></div></a> </div>
+        <div class="tres"> <a href="#">  <img class="dos" id="siete" src="medico4.jpg"><div class="overlay"><h1> aqui va alguna información </h1></div> </a> </div>
+    </section>
+
+
+    <%- include('partials/pies.ejs') -%>
+
+</body>
+</html>

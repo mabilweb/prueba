@@ -9,17 +9,15 @@ app.set('view engine', 'ejs');
 
 //middleawres
 
-///routes
-//app.use(require('./routes/index'));
+///
 
-app.get('/', (req, res) => {
-   //res.sendFile(path.join(__dirname + '/views/index.html'));
-   //res.send("gfddfgh");
-    res.render('index');
-});
+///routes
+app.use(require('./routes/index'));
+
 
 ///static files
-//app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
+
 
 ///listeig the server
 app.listen(app.get('port'), () =>{
