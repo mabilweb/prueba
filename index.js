@@ -20,7 +20,8 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
     //console.log(path.join(__dirname , 'views/index.html'));
     //res.sendFile(path.join(__dirname , 'views/index.ejs'));
-    res.render(path.join(__dirname , 'views/index.ejs'));
+    res.sendFile(path.join(__dirname + '/views/index.html'));
+    //res.render('index');
 });
 
 
