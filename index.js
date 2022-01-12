@@ -2,8 +2,6 @@ const express = require('express');
 const app =express();
 const path =require('path');
 
-
-
 //settings
 app.set('port',4000);
 //app.set('views',path.join(__dirname +'/views'));
@@ -11,22 +9,17 @@ app.set('port',4000);
 
 //middleawres
 
-///
-
 ///routes
 //app.use(require('./routes/index'));
 
-
 app.get('/', (req, res) => {
-   // res.sendFile(path.join(__dirname + '/views/index.html'));
-   res.send("gfddfgh");
+   res.sendFile(path.join(__dirname + '/views/index.html'));
+   //res.send("gfddfgh");
     //res.render('index');
 });
 
-
 ///static files
 //app.use(express.static(__dirname + '/public'));
-
 
 ///listeig the server
 app.listen(app.get('port'), () =>{
