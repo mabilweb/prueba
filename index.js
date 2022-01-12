@@ -4,8 +4,8 @@ const path =require('path');
 
 //settings
 app.set('port',4000);
-//app.set('views',path.join(__dirname +'/views'));
-//app.set('view engine', 'ejs');
+app.set('views',path.join(__dirname +'/views'));
+app.set('view engine', 'ejs');
 
 //middleawres
 
@@ -13,9 +13,9 @@ app.set('port',4000);
 //app.use(require('./routes/index'));
 
 app.get('/', (req, res) => {
-   res.sendFile(path.join(__dirname + '/views/index.html'));
+   //res.sendFile(path.join(__dirname + '/views/index.html'));
    //res.send("gfddfgh");
-    //res.render('index');
+    res.render('index');
 });
 
 ///static files
