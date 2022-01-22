@@ -1,66 +1,70 @@
 
+ 
 
  <header>
-         <div class="contenedor0">
-      
-         <a href="/">
+    <div class="contenedor0">
+        <a href="/">
             <i>
-                <img src="UCC.jpg" alt="menu icon">
+                <img src="unam.jpg" alt="menu icon" id="unam">
             </i>
-         </a>
-
+        </a>
       
-         <canvas id="myCanvas" width="20" height="100" style="border:1px solid white;">
+        <canvas id="myCanvas" width="20" height="100" style="border:1px solid white;">
             Your browser does not support the HTML canvas tag.</canvas>
+
+           
             <div class="contenedor1">
-                <p> <strong>Soluciones medicas para una vida plena.</strong></p>
+                <p> <center><strong>Soluciones medicas para una vida plena.</strong></center></p>
             </div>
+            <div class="contenedor-texto">
+                <h1 class="titulo"><span class="typed"></span></h1>
+            </div>  
+           
 
             <div class="search-container">
                 <form action="/action_page.php">
                   <input type="text" placeholder="Search.." name="search">
                   <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-              </div>
-            <script>
-            var c = document.getElementById("myCanvas");
-            var ctx = c.getContext("2d");
-            ctx.moveTo(0,0);
-            ctx.lineTo(0,100);
-            ctx.stroke();
-            </script>
-         </div>
-
-      <nav class="size0">
-        <ul>
-            <li>
-                    <a  href="/medicamentos">
+             
+            </div>
+           
+          
+           
+     </div>
+    
+        <nav class="size0">
+            <ul>
+                <li id="medi">
+                        <a  href="/medicamentos">
+                            <i class="contene" >
+                                <img src="medicina.png" alt="menu icon" class="size1">
+                            </i>
+                            <p id="indi">MEDICAMENTOS</p>
+                        </a>
+                </li>
+    
+                <li id="ser">
+                    <a  href="/servicio">
                         <i class="contene">
-                            <img src="medicina.png" alt="menu icon" class="size1">
+                            <img src="servicio.svg" alt="menu icon" class="size1">
                         </i>
-                        <p >MEDICAMENTOS</p>
+                        <p id="indi1">SERVICIOS</p>
                     </a>
-            </li>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <i class="contene">
+                            <img src="Tratamiento.png" alt="menu icon" class="size1">
+                        </i>
+                        <p >TRATAMIENTOS</p>
+                    </a>
+                </li>
+    
+            </ul>
+        </nav>
 
-            <li >
-                <a  href="/servicio">
-                    <i class="contene">
-                        <img src="servicio.svg" alt="menu icon" class="size1">
-                    </i>
-                    <p >SERVICIOS</p>
-                </a>
-            </li>
-
-            <li>
-                <a href="#">
-                    <i class="contene">
-                        <img src="Tratamiento.png" alt="menu icon" class="size1">
-                    </i>
-                    <p >TRATAMIENTOS</p>
-                </a>
-            </li>
-
-        </ul>
-     </nav>
-     <header>
+  
+ <header>
         
