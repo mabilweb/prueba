@@ -1,4 +1,4 @@
-    imagenes =['gedia.jpg','medi2.jpg','ima4.jpg','medico4.jpg'] ///no le pongas  const o let para que sean globales
+    imagenes =['gedia.jpg','gedia.jpg','ima4.jpg','medico4.jpg'] ///no le pongas  const o let para que sean globales
     i =1
     y=1
     const img1 = document.querySelector('#img1')
