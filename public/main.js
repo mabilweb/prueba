@@ -2,9 +2,9 @@
 const typed = new Typed('.typed', {
 	strings: [
 		'<i class="mascota">Control de enfermedades cronico degenerativas</i>',
-		'<i class="Atención de Urgencias</i>',
-		'<i class="Toma de laboratorios</i>',
-		'<i class="Consulta Medica General</i>'
+		'<i class="mascota">Atención de Urgencias</i>',
+		'<i class="mascota">Toma de laboratorios</i>',
+		'<i class="mascota">Consulta Medica General</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
