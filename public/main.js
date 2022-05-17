@@ -3,8 +3,10 @@ const typed = new Typed('.typed', {
 	strings: [
 		'<i class="mascota">Control de enfermedades cronico degenerativas</i>',
 		'<i class="mascota">Tratamientos anti-Covid</i>',
-		'<i class="mascota">Diagnostico temprano</i>',
-		'<i class="mascota">Certificación Medica</i>'
+		'<i class="mascota">Electrocardiogramas</i>',
+		'<i class="Atención de Urgencias</i>',
+		'<i class="Toma de laboratorios</i>',
+		'<i class="Consulta Medica General</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
