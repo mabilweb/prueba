@@ -1,7 +1,7 @@
 
 const typed = new Typed('.typed', {
 	strings: [
-		'<i class="mascota">Medicamentos y suplementos</i>',
+		'<i class="mascota">Control de enfermedades cronico degenerativas</i>',
 		'<i class="mascota">Tratamientos anti-Covid</i>',
 		'<i class="mascota">Diagnostico temprano</i>',
 		'<i class="mascota">Certificación Medica</i>'
