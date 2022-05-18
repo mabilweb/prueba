@@ -6,9 +6,9 @@ router.get('/',(req,res)=>{
     res.render('index');
 });
 
-router.get('/medicamentos',(req,res)=>{
+router.get('/tratame',(req,res)=>{
     //res.sendFile(path.join(__dirname,'views/index.html'));
-    res.render('medicamentos');
+    res.render('tratame');
 });
 
 router.get('/ubicar',(req,res)=>{
