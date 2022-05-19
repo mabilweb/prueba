@@ -31,4 +31,29 @@ router.get('/personal',(req,res)=>{
     res.render('personal');
 });
 
+router.get('/adulto',(req,res)=>{
+    //res.sendFile(path.join(__dirname,'views/index.html'));
+    res.render('adulto');
+});
+
+router.get('/estetico',(req,res)=>{
+    //res.sendFile(path.join(__dirname,'views/index.html'));
+    res.render('estetico');
+});
+
+router.get('/diabetico',(req,res)=>{
+    //res.sendFile(path.join(__dirname,'views/index.html'));
+    res.render('diabetes');
+});
+
+router.get('/enfermera',(req,res)=>{
+    //res.sendFile(path.join(__dirname,'views/index.html'));
+    res.render('enfermera');
+});
+
+router.get('/clr',(req,res)=>{
+    //res.sendFile(path.join(__dirname,'views/index.html'));
+    res.render('clr');
+});
+
 module.exports = router;
