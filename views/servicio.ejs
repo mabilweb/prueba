@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        iframe{
-            width: 100%;
-            height: 600px;
-        }
-    </style>
+  <%- include('partials/cabecera.ejs') -%>
+  <style>
+    #ser1{
+      background: rgb(235, 225, 225);
+    }
+    #indi2{
+      color: black;
+    }
+  </style>
+   
 </head>
-<body style="margin-top: 0%;margin-left: 0%;">
-    <iframe src="servicios.pdf"></iframe>
+
+<body>
+   
+    <%- include('partials/navegar.ejs') -%>
     
+        <h2>SERVICIOS BRINDADOS</h2>
+        
+        <table>
+
+          <tr>
+            <th>SERVICIOS</th>
+          </tr>
+          <tr>
+            <td>Consulta medica de Especialidad en Geriatria y medicina</td>
+          </tr>
+          <tr>
+            <td>Consulta medica General</td>
+          </tr>
+          <tr>
+            <td>Control de Hipertención Arterial</td>
+          </tr>
+          <tr>
+            <td>Curación Avanzada de Pie Diabetico</td>
+          </tr>
+          <tr>
+            <td>Atención de Urgencias</td>
+          </tr>
+          <tr>
+            <td>Manejo y vigilancia de pacientes postrados y con covid</td>
+          </tr>
+          <tr>
+            <td>Electrocardiogramas</td>
+          </tr>
+          <tr>
+            <td>Toma de Laboratorios</td>
+          </tr>
+
+        </table>
+        
+
+
+    <%- include('partials/pies.ejs') -%>
+
 </body>
 </html>
