@@ -97,11 +97,11 @@ ul{
 /**/
 #slideshow-principal{
   
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 10%;
+margin-right: 0%;
   position: relative;
   overflow: hidden;
-  width: 60%;
+  width: 80%;
 }
 
 #progress-bar-container{
@@ -123,7 +123,7 @@ margin-right: 20%;
 #slideshow{
   position: relative;
   z-index: 998;
-  height: 400px;
+  height: 1000px;
 }
 
 .uno{
