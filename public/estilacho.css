@@ -96,12 +96,11 @@ ul{
 
 /**/
 #slideshow-principal{
-  
 margin-left: 10%;
 margin-right: 0%;
   position: relative;
   overflow: hidden;
-  width: 80%;
+  width: 90%;
 }
 
 #progress-bar-container{
