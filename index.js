@@ -47,9 +47,9 @@ app.use((req,res,next)=>{
     next();
     });
 //Routes
-app.use(require('./routes'));
-app.use(require('./routes/autenthication'));
-app.use('/links',require('./routes/links'));
+app.use(require('./src/routes'));
+app.use(require('./src/routes/autenthication'));
+app.use('/links',require('./src/routes/links'));
 
 //Public
 //app.use(express.static('public'))
