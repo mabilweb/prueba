@@ -9,7 +9,7 @@ const passport = require('passport');
 
 const {database}=require('./keys');
 const app=express();
-require('./lib/passport');
+require('./src/lib/passport');
 
 //settings
 app.set('port',process.env.PORT ||4000);
@@ -19,7 +19,7 @@ defaultLayout:'main',
 layoutsDir:path.join(app.get('views'),'layouts'),
 partialsDir:path.join(app.get('views'),'partials'),
 extname:'.hbs',
-helpers:require('./lib/handlebars')
+helpers:require('./src/lib/handlebars')
 }));
 app.set('view engine','.hbs');
 
