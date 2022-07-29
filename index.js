@@ -48,7 +48,7 @@ app.use((req,res,next)=>{
     });
 //Routes
 app.use(require('./src/routes'));
-app.use(require('./routes/autenthication'));
+app.use(require('./src/routes/autenthication'));
 app.use('/links',require('./routes/links'));
 
 //Public
