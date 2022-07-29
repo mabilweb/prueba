@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/cabecera.ejs') -%>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .container {
+      position: relative;
+      max-width: 1000px;
+      margin: 10px auto;
+    }
+    
+    .container img {vertical-align: middle;}
+    
+    .container .content {
+      position: absolute;
+      top: 0px;
+      background: rgba(78, 74, 74, 0.7); /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 97%;
+      padding: 10px;
+    }
+    .con{
+      padding-top: 0%;
+    }
+    </style>
+   
+</head>
+
+<body>
+   
+    <%- include('partials/navegar.ejs') -%>
+
+     
+
+
+<div class="container">
+  <img src="medica.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1 class="con">¿Quienes somos?</h1>
+    <p style="font-size: 30px; margin-top: 30px;">En Gama Medic's somos una clinica comprometidad con la salud y bienestar de nuestros pacientes.
+      brindando servicios de muy alta calidad que contribuyan al bienestar en general. Nuestros servicios incluyen
+      tratamientos contra el Covid-19 y sus variantes, ayuda a personas diabeticas, infecciones, diagnostico 
+      temprano para el tratamiento de enfermedades cronicas y agudas.
+    </p>
+  </div>
+</div>
+       
+    <%- include('partials/pies.ejs') -%>
+
+</body>
+</html>
